@@ -16,13 +16,28 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Poppins', sans-serif;
 }
 
+
+/* miscelleneous */
+.n-line{
+    display: block;
+}
+
+.inline{
+    display: inline;
+}
+
+.paragraph{
+    line-height: 2.5rem
+}
+
 /* header and navbar */
 .header{
-    background: none;
+    background: linear-gradient(to bottom, hsl(322, 100%, 66%), hsl(265, 100%, 66%));
 }
 
 .navbar{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 1.8rem
@@ -30,11 +45,19 @@ h1, h2, h3, h4, h5, h6{
 
 a{
     text-decoration: none;
+    color: black;
+    display: inline-block;
 }
 
 .nav-links {
     background-color: hsl(214, 64%, 98%);
     padding: 1.5rem 5rem;
+    margin: 1.5rem 0rem;
+    box-shadow: 3px 3px 10px 1px hsl(208, 11%, 55%);
+}
+
+.header__image__container{
+    margin: 0 auto;
 }
 /* end of navbar */
 
@@ -48,10 +71,38 @@ a{
     margin: 0 auto;
 }
 
+.section-one__image{
+    margin: 0 auto;
+}
+
 .section-one__image img{
     width: 100%;
 }
 
+.section-one__text{
+    margin: 0 auto;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.section-one__text h1{
+    margin: 2rem;
+}
+
+.section-one__text p{
+    margin: 2rem;
+    color: hsl(208, 11%, 55%);
+}
+
+.section-one__text a{
+    padding: 2rem 6rem;
+    background-color: hsl(322, 100%, 66%);
+    margin: 2rem;
+    box-shadow: 3px 3px 10px 1px hsl(208, 11%, 55%);
+    border-radius: .2rem;
+    border-radius: .5rem;
+    color: hsl(214, 64%, 98%);
+}
 /* responsive */
 
 /* For desktop: */
