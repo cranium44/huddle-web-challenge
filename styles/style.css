@@ -10,12 +10,16 @@ html{
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.8rem;
+    background-color: hsl(214, 64%, 98%);
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Poppins', sans-serif;
 }
 
+img{
+    width: 100%;
+}
 
 /* miscelleneous */
 .n-line{
@@ -27,7 +31,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .paragraph{
-    line-height: 2.5rem
+    line-height: 2.5rem;
+    margin: 2rem 0rem;
+    color: hsl(208, 11%, 55%);
 }
 
 /* header and navbar */
@@ -62,9 +68,9 @@ a{
 /* end of navbar */
 
 /* section one */
-.section-one{
+.section-one, .section-four, .section-five{
     margin: 0 auto;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .section-one__container{
@@ -75,9 +81,6 @@ a{
     margin: 0 auto;
 }
 
-.section-one__image img{
-    width: 100%;
-}
 
 .section-one__text{
     margin: 0 auto;
@@ -103,6 +106,56 @@ a{
     border-radius: .5rem;
     color: hsl(214, 64%, 98%);
 }
+/* end of section one */
+
+/* begin of section four  */
+.section-four__container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-four__image{
+    padding: 2rem;
+}
+
+.section-four__text__container{
+    /* margin-left: 4rem; */
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+/* end section four */
+
+/* begin section five */
+
+.section-five__content{
+    margin: 0 auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    text-align: center;
+    padding: 6rem;
+    /* border: 1px solid black; */
+    background-color: #fff;
+    box-shadow: 5px 10px 20px 10px hsl(208, 11%, 55%);
+}
+
+.section-five__content a{
+    padding: 2rem 6rem;
+    background-color: hsl(322, 100%, 66%);
+    margin: 2rem;
+    box-shadow: 3px 3px 10px 1px hsl(208, 11%, 55%);
+    border-radius: .2rem;
+    border-radius: .5rem;
+    color: hsl(214, 64%, 98%);
+}
+
+
 /* responsive */
 
 /* For desktop: */
