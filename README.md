@@ -1,3 +1,3 @@
 # huddle-web-challenge
 
-A responsive website UI challenge
+A Responsive Website UI Challenge
